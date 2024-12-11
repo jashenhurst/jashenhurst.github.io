@@ -1,4 +1,6 @@
-theme: minima
+remote_theme: pages-themes/slate@v0.2.0
 title: Ashenhurst.Calling Card
 author: James Ashenhurst
-description: To provide information for contacting and getting to know James B. Ashenhurst.
+description: Social media links and other contact information
+plugins:
+- jekyll-remote-theme
