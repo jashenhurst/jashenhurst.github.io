@@ -1,6 +1,11 @@
-remote_theme: pages-themes/slate@v0.2.0
+theme: minima
 title: Ashenhurst.Calling Card
 author: James Ashenhurst
 description: Social media links and other contact information
-plugins:
-- jekyll-remote-theme
+minima:
+  skin: solarized-light
+  social_links:
+    - { platform: github, user_url: "https://github.com/jashenhurst"}
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/jashenhurst"}
+    - { platform: mastodon, user_url: "https://mastodon.sdf.org/@aesc"}
+    - { platform: instagram, user_url: "https://www.instagram.com/shenhurst/"}
